@@ -94,7 +94,7 @@
 </div>
 
     </div>
-    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
+    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse" >
       
 <nav id="mobile-nav">
   	<div class="overlay js-overlay" style="background: #00000"></div>
@@ -173,7 +173,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-keyboard-o"></i>
         <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">696字</span>
+        <span class="post-count">697字</span>
       </span>
     </span>
 
@@ -210,10 +210,12 @@
 
 <hr>
 <hr>
-<h1 id="二、更换左侧背景图片"><a href="#二、更换左侧背景图片" class="headerlink" title="二、更换左侧背景图片"></a>二、更换左侧背景图片</h1><h2 id="1、找到themes-yilia-目录下的-config-yml文件"><a href="#1、找到themes-yilia-目录下的-config-yml文件" class="headerlink" title="1、找到themes\yilia\目录下的_config.yml文件:"></a>1、找到<code>themes\yilia\</code>目录下的<code>_config.yml</code>文件:</h2><p><code>header</code> 这一项修改为 <code>#00000</code></p>
+<h1 id="二、更换左侧背景图片"><a href="#二、更换左侧背景图片" class="headerlink" title="二、更换左侧背景图片"></a>二、更换左侧背景图片</h1><h2 id="1、"><a href="#1、" class="headerlink" title="1、"></a>1、</h2><p>找到<code>themes\yilia\</code>目录下的<code>_config.yml</code>文件:</p>
+<p><code>header</code> 这一项修改为 <code>#00000</code></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 样式定制 - 一般不需要修改，除非有很强的定制欲望…</span><br><span class="line">style:</span><br><span class="line">  # 头像上面的背景颜色</span><br><span class="line">  header: &#39;#00000&#39;</span><br><span class="line">  # 右滑板块背景</span><br><span class="line">  slider: &#39;linear-gradient(200deg,#a0cfe4,#e8c37e)&#39;</span><br></pre></td></tr></table></figure>
-<h2 id="2、把你选好的背景图片放到themes-yilia-source目录下"><a href="#2、把你选好的背景图片放到themes-yilia-source目录下" class="headerlink" title="2、把你选好的背景图片放到themes\yilia\source目录下:"></a>2、把你选好的背景图片放到<code>themes\yilia\source</code>目录下:</h2><p>(图像推荐大小：700 x 1200,出来的效果比较好)<br>记好文件名！</p>
-<h2 id="3、打开-yilia-source-目录下的-main-xxxx-css文件："><a href="#3、打开-yilia-source-目录下的-main-xxxx-css文件：" class="headerlink" title="3、打开 yilia\source 目录下的 main.xxxx.css文件："></a>3、打开 <code>yilia\source</code> 目录下的 <code>main.xxxx.css</code>文件：</h2><h3 id="用Crtl-F搜索-left-col-、-left-col-overlay-以及-mobile-nav-overlay"><a href="#用Crtl-F搜索-left-col-、-left-col-overlay-以及-mobile-nav-overlay" class="headerlink" title="用Crtl + F搜索.left-col{、.left-col .overlay{以及#mobile-nav .overlay"></a>用<code>Crtl + F</code>搜索<code>.left-col{</code>、<code>.left-col .overlay{</code>以及<code>#mobile-nav .overlay</code></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.left-col&#123;background:#fff;width:300px;position:fixed;opacity:1;transition:all .2s ease-in;height:100%;z-index:999&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="2、"><a href="#2、" class="headerlink" title="2、"></a>2、</h2><p>把你选好的背景图片放到<code>themes\yilia\source</code>目录下:<br>(图像推荐大小：700 x 1200,出来的效果比较好)<br>记好文件名！</p>
+<h2 id="3、"><a href="#3、" class="headerlink" title="3、"></a>3、</h2><p>打开 <code>yilia\source</code> 目录下的 <code>main.xxxx.css</code>文件：<br>用<code>Crtl + F</code>搜索<code>.left-col{</code>、<code>.left-col .overlay{</code>以及<code>#mobile-nav .overlay</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.left-col&#123;background:#fff;width:300px;position:fixed;opacity:1;transition:all .2s ease-in;height:100%;z-index:999&#125;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.left-col .overlay&#123;width:100%;height:180px;position:absolute&#125;</span><br></pre></td></tr></table></figure>
 
@@ -331,8 +333,8 @@
 <nav id="article-nav">
   
   
-    <a href="/2020/03/31/%E7%8B%BC/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">狼</div>
+    <a href="/2020/03/31/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -449,7 +451,7 @@
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: false
+		showTags: true
 	}
 </script>
 
@@ -512,10 +514,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">yilia</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">测试</a>
               </li>
             
             <div class="clearfix"></div>
